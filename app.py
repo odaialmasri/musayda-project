@@ -13,6 +13,10 @@ def home_page():
 	return render_template("index.html")
 
 
+@app.route("/form")
+def form_date():
+	return render_template("form.html")
+
 
 
 
