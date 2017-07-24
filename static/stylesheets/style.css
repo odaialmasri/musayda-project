@@ -1,37 +1,34 @@
 
-
 .navbar {
-    background-color: #252F31;
-    color: #FFF;
-   
-}
-
-   
-
-.navbar li{
-    display: inline;
-    margin: 20px 20px;
-    font-size: 30px;
-
-}
-
-.navbar li:hover{
-    background-color: grey;
-   
-
-}
-.navbar li a{
-
-    text-decoration: none;
+    background-color: black;
+    overflow: hidden;
 }
 
 
-.form_data{
-	background-color: #252F31;}
 
-.inp {
-    height: 250px;
-    border-radius: 30px;
-    width: 300px;
+
+
+.form_div{
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-left: 20px;
+	height: 100%;
+	width: 100%;
+	background-color: grey;
+}
+
+
+
+.inp{
+	height: 30px;
+	border-radius: 25px;
+	width: 300px;
+}
+
+
+.message{
+	border-radius: 25px;
+	height: 250px;
+	width: 300px;
 }
 
