@@ -19,6 +19,18 @@ def form_date():
 	return render_template("form.html")
 
 
+
+@app.route("/charitries")
+def charitries_page():
+	return render_template("charitries.html")
+
+
+
+
+
+
+
+
 @app.route("/form_posts",methods=["POST"])
 def form_posts():
 	user_name = request.form["name"]
