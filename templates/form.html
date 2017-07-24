@@ -11,20 +11,24 @@
 
 {% block body %}
 
-<form class="form fl-left">
-	<label> Name *</label><br>
-	<input type="text"><br><br>
-	<label>Email Address *</label><br>
-	<input type="text"><br><br>
-	<label>Phone *</label><br>
-	<input type="text"><br><br>
-	<label>Message</label><br>
-	<textarea></textarea>
-	<input type="submit" value="post"><br><br>
 
 
-</form>
+<div class="form_div">
+	<form class="form_data">
 
+		<label> Name *</label><br>
+		<input class="inp" type="text" name="name"><br><br>
+		<label>Email Address *</label><br>
+		<input class="inp" type="text" name="Email"><br><br>
+		<label>Phone *</label><br>
+		<input class="inp" type="text" name="phone_number"><br><br>
+		<label >About you *</label><br>
+		<textarea class="message" type="text" name="msg"></textarea><br><br>
+		<input type="submit" value="post"><br><br>
+
+
+	</form>
+</div>
 
 
 

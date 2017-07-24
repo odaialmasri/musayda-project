@@ -1,8 +1,7 @@
 
 
 .navbar {
-    background-color: #252F31;
-    color: #FFF;
+    background-color: black;
     overflow: hidden;
 }
 
@@ -10,6 +9,24 @@
 
 
 
-.form_data{
-	background-color: #252F31;
+.form_div{
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-left: 20px;
+	height: 100%;
+	width: 100%;
+	background-color: grey;
+}
+
+
+
+.inp{
+	width: 300px;
+	border-radius: 50%;
+}
+
+
+.message{
+	height: 250px;
+	width: 300px;
 }
