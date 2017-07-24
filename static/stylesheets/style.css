@@ -3,6 +3,11 @@
     
     background-color: black;
     overflow: hidden;
+    display:inline-block;
+    height: 50px;
+    width: 100px;
+
+
 }
 .navbar li {
     display: inline;
@@ -64,7 +69,4 @@
 .navbar li a{
 
     text-decoration: none;
-}
-.navbar li{
-    text-align: center;
 }
