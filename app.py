@@ -18,7 +18,12 @@ def form_date():
 	return render_template("form.html")
 
 
-
+@app.route("/form_posts",methods=["POST"])
+def form_res():
+	user_firstname = request.form["firstname"]
+	user_lastname = request.form["lastname"]
+	user_message = request.form["message"]
+	user_gender = request.form["gender"]
 
 
 

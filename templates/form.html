@@ -11,6 +11,7 @@
 
 {% block body %}
 
+<<<<<<< HEAD
 <form class="form fl-left">
 	<label> Name *</label><br>
 	<input type="text"><br><br>
@@ -21,10 +22,26 @@
 	<label>Message *</label><br>
 	<textarea></textarea>
 	<input type="submit" value="post"><br><br>
+=======
+>>>>>>> 7e818f89c45527f9094053c1099f2b7f6325f091
 
 
-</form>
+<div class="form_div">
+	<form action="{{ url_for('form_posts') }}" method="post" class="form_data">
 
+		<label> Name *</label><br>
+		<input class="inp" type="text" name="name"><br><br>
+		<label>Email Address *</label><br>
+		<input class="inp" type="text" name="Email"><br><br>
+		<label>Phone *</label><br>
+		<input class="inp" type="text" name="phone_number"><br><br>
+		<label >About you *</label><br>
+		<textarea class="message" type="text" name="msg"></textarea><br><br>
+		<input type="submit" value="post"><br><br>
+
+
+	</form>
+</div>
 
 
 
