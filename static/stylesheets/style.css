@@ -1,10 +1,26 @@
 
 .navbar {
+	overflow:hidden;
+    display: inline-block;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    margin: 0px;
+
+}
+.navbar li {
+    display: inline;
+    margin: 50px 50px;
+    font-size: 30px;
     background-color: black;
     overflow: hidden;
 }
 
 
+.navbar li:hover{
+    background-color: grey;
+   
+}
 
 
 
@@ -36,7 +52,7 @@
 
 .poor{
 	height: 400px;
-	width: 100%;
+	width: 97%;
 	background-image: url(../images/poor1.jpg);
 	background-size: 100% 100%; 
 }
@@ -53,4 +69,3 @@
 
 .about_us h1{
 	text-align: center;
-}
