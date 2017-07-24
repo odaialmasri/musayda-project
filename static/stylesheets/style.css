@@ -1,22 +1,27 @@
 
 .navbar {
-    
+
     background-color: black;
-    overflow: hidden;
     display:inline-block;
     height: 50px;
-    width: 100px;
+    width: 100%;
+    margin: 0px;
 
 
 }
 .navbar li {
     display: inline;
-    
+    margin: 50px 50px;
+    font-size: 30px;
     background-color: black;
     overflow: hidden;
 }
 
 
+.navbar li:hover{
+    background-color: grey;
+   
+}
 
 
 
@@ -32,6 +37,7 @@
 
 
 .inp{
+	font-size: 20px;
 	height: 30px;
 	border-radius: 25px;
 	width: 300px;
@@ -45,28 +51,25 @@
 }
 
 
-.navbar{
-    display: inline-block;
-    /*height: 100px;*/
-    width:1100px;
-    height: 50px;
-    
-   
-}
-.navbar li{
-    display: inline;
-    margin: 50px 50px;
-    font-size: 30px;
-    
+.poor{
+	height: 400px;
+	width: 97%;
+	background-image: url(../images/poor1.jpg);
+	background-size: 100% 100%; 
 }
 
-.navbar li:hover{
-    background-color: grey;
-   
 
+
+
+.about_us{
+	border: solid 10px;
+	margin-top: 20px;
+	height: 400px;
+	width: 99%;
 }
 
-.navbar li a{
 
-    text-decoration: none;
+.about_us h1{
+	text-align: center;
 }
+.navbar li a{text-decoration: none; }
