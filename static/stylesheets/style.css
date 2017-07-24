@@ -4,7 +4,7 @@
     background-color: black;
     display:inline-block;
     height: 50px;
-    width: 100%;
+    width: 97%;
     margin: 0px;
 
 
@@ -53,7 +53,7 @@
 
 .poor{
 	height: 400px;
-	width: 97%;
+	width: 100%;
 	background-image: url(../images/poor1.jpg);
 	background-size: 100% 100%; 
 }
