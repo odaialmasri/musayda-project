@@ -1,11 +1,12 @@
 
 .navbar {
-	overflow:hidden;
-    display: inline-block;
+
     background-color: black;
+    display:inline-block;
     height: 50px;
     width: 97%;
     margin: 0px;
+
 
 }
 .navbar li {
@@ -67,5 +68,8 @@
 	width: 99%;
 }
 
+
 .about_us h1{
 	text-align: center;
+}
+.navbar li a{text-decoration: none; }
