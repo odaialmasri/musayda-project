@@ -9,6 +9,8 @@ app = Flask(__name__)
 # table=db["musa3ada_users"]
 
 
+
+
 @app.route("/")
 def home_page():
 	return render_template("index.html")
@@ -27,10 +29,6 @@ def charitries_page():
 
 
 
-
-
-
-
 @app.route("/form_posts",methods=["POST"])
 def form_posts():
 	user_name = request.form["name"]
@@ -38,14 +36,18 @@ def form_posts():
 	user_phonenumber = request.form["phone_number"]
 	user_status = request.form["msg"]
 
-	# user1 = musa3ada_users.insert(dict(username=user_name,Email=user_email,phonenumber=user_phonenumber,user_info=user_status))
+	# user1 = table.insert(dict(username=user_name,Email=user_email,phonenumber=user_phonenumber,user_info=user_status))
 
-	# user_list=list(user1)
+	# user2= table.find()
 
-	return render_template("view.html",name1=user_name,email1=user_email,phonenumber1=user_phonenumber,info1=user_status)
+	# user_list=list(user2)
+
+	
 
 
-
+@app.route("/display_stories")
+def display():
+	return render_template("view.html")
 
 if __name__ == "__main__":
 	app.run(port=5555)
